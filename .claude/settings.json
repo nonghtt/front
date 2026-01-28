@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "WebSearch",
+      "mcp__sequential-thinking",
+      "mcp__context7",
+      "mcp__playwright"
+    ],
+    "deny": [
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "context7",
+    "sequential-thinking",
+    "playwright"
+  ],
+  "disabledMcpjsonServers": [
+  ],
+  "language": "korea"
+}
