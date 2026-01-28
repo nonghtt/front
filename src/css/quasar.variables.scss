@@ -12,14 +12,29 @@
 // to match your app's branding.
 // Tip: Use the "Theme Builder" on Quasar's documentation website.
 
-$primary   : #1976D2;
-$secondary : #26A69A;
-$accent    : #9C27B0;
+//$primary: #1976d2; // 기본
+//$primary: #396495; // 딥블루
+$primary: #0e5d59; // 행정포털
+//$primary: #003973; // GOK BLUE
+//$primary: #6b7280; // GOK Gray
+$secondary: #148b85;
+$accent: #9c27b0;
 
-$dark      : #1D1D1D;
-$dark-page : #121212;
+$dark: #1d1d1d;
+$dark-page: #121212;
 
-$positive  : #21BA45;
-$negative  : #C10015;
-$info      : #31CCEC;
-$warning   : #F2C037;
+$positive: #21ba45;
+//$negative: #c8102e; // GOK Red
+$info: #31ccec;
+$warning: #f2c037;
+
+$body-width: 1600px; // 1920 -> 1600
+$line-height: 27px;
+$page-min-height: 750px;
+
+// Custom Flow UI Colors (추후 해당부분 변경)
+$flow-border: #d1d5db;
+$flow-border-light: #e5e7eb;
+$flow-bg-label: #f3f4f6;
+$flow-text-label: #374151;
+$flow-text-secondary: #6b7280;

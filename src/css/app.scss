@@ -1,1 +1,30 @@
 // app global css in SCSS form
+// body {
+//   min-width: $body-width;
+// }
+
+.a-border {
+  border: 1px solid $flow-border-light;
+ border-radius: 4px;
+  &.bdl-none {
+    border-left: none;
+  }
+
+  &.bdr-none {
+    border-right: none;
+  }
+
+  &.bdt-none {
+    border-top: none;
+    border-radius: 0px 0px 4px 4px !important;
+  }
+
+  &.bdb-none {
+    border-bottom: none;
+  }
+}
+
+
+
+
+
